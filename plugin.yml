@@ -1,0 +1,15 @@
+name: PermissionShop
+version: 1.0.0
+api: 5.0.0
+author: jxrian4
+main: jxrian4\PermShop\Main
+description: 'allow players to purchase a permission'
+
+commands:
+  permshop:
+    description: 'Open Permission Shop UI'
+    permission: permshop.cmd
+
+permissions:
+  permshop.cmd:
+    default: true

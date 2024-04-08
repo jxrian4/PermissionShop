@@ -1,0 +1,43 @@
+# setting shop here
+# ------------------>
+
+# title for Permission Shop form
+form-title: "Permission Shop"
+
+# {player} = Player name
+# {money} = Playwr money
+# {monetary_unit} = Your economy monetary unit symbol
+# \n = new line
+form-content: "Hello §b{player}!\n§eYour money §2{monetary_unit}{money}"
+
+# close button
+close-button: 'CLOSE'
+
+# add button here
+1:
+  Permission:
+    name: "Example"
+    permissions: "example.cmd"
+    price: 1000
+  Button:
+    name: "Example Permission"
+    texture: "textures/ui/icon_trailer"
+    
+2:
+  Permission:
+    name: "Example2"
+    permissions: "example2.cmd"
+    price: 5000
+  Button:
+    name: "Example Permission 2"
+    texture: "textures/ui/icon_trailer"
+
+# add more button with same format
+
+# message setting
+# {price} = Permission Price
+# {perm} = Permission Name
+msg-success: "§eYou just bought §b{perm} §ewith §2{monetary_unit}{price} §emoney"
+msg-not-enough: "§c[!] You no have enough money"
+
+# jxrian4
